@@ -3,15 +3,16 @@ body{
 	font-size: 16px;
 	margin: 0;
 	padding: 0;
-	background-color: #fff;
+	background-color: #000;
 	position: relative;
 	word-wrap: break-word;
 	-ms-text-size-adjust: none;
 	overflow-y: scroll;
 	visibility: visible;
+	color: #384;
 }
 a:link{
-	color: #007aff;
+	color: #469af6;
 }
 button{
 	font-family: inherit;
@@ -26,7 +27,7 @@ pre, code{
 }
 
 #outdated-browser{
-	background-color: #fff;
+	background-color: #000;
 	text-align: center;
 	padding: 1em;
 	margin: 0;
@@ -60,10 +61,10 @@ pre, code{
 }
 .view>header{
 	border-bottom: 1px solid #ddd;
-	background-color: rgba(255,255,255,.95);
+	background-color: rgba(0,0,63,.95);
 	line-height: 44px;
 	height: 44px;
-	color: #333;
+	color: #f60;
 	position: absolute; /* if position:fixed is not supported */
 	position: fixed;
 	left: 0;
@@ -95,7 +96,7 @@ pre, code{
 	cursor: pointer;
 }
 .header-button:hover{
-	background-color: #F6F6EF;
+	background-color: #16164F;
 }
 .header-button:active button{
 	opacity: .5;
@@ -150,20 +151,20 @@ pre, code{
 	margin-top: 44px;
 }
 .view.shaded>.scroll{
-	background-color: #F6F6EF;
+	background-color: #16164F;
 }
 .view.shaded>.scroll p.foot-label{
 	margin: 15px 10px;
 	font-size: 13px;
 	line-height: 1.4em;
-	color: #4c566c;
+	color: #686;
 	text-align: center;
 }
 .view>.scroll .loader,
 .view>.scroll .load-error{
 	font-size: 16px;
-	color: #666;
-	color: #666;
+	color: #686;
+	color: #686;
 	text-align: center;
 	padding: 50px 0;
 }
@@ -175,22 +176,22 @@ pre, code{
 	cursor: pointer;
 	padding: 0 20px;
 	font-weight: bold;
-	color: #666;
+	color: #686;
 	margin: 6px auto 4px;
-	background-color: #f0f0ea;
+	background-color: #0f0f5a;
 	border-radius: 2px;
 }
 .view>.scroll .load-error button:hover{
-	background-color: #e0e0da;
+	background-color: #0e0e5a;
 }
 .view>.scroll .load-error button:active{
-	background-color: #c8c8c8;
+	background-color: #282868;
 }
 .tableview{
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	background-color: #fff;
+	background-color: #111;
 }
 .tableview li{
 	display: block;
@@ -207,16 +208,16 @@ pre, code{
 .tableview-links li>a{
 	font-size: 14px;
 	line-height: 1.3em;
-	color: #000;
+	color: #f60;
 	display: block;
 	padding: 10px 5px;
 	text-decoration: none;
 }
 .tableview-links li>a:visited{
-	color: #888;
+	color: #483;
 }
 .tableview-links li>a:hover{
-	background-color: #F6F6EF;
+	background-color: #16164F;
 }
 .tableview-links li>a *{
 	pointer-events: none;
@@ -284,7 +285,7 @@ pre, code{
 	margin: 10px 9px 11px;
 	padding: 10px;
 	border: 1px solid #E0E0E0;
-	background-color: #fff;
+	background-color: #117;
 	font-size: 13px;
 	border-radius: 2px;
 	overflow: hidden;
@@ -330,7 +331,7 @@ ol.grouped-tableview-links li{
 }
 ul.grouped-tableview-links li>a,
 ol.grouped-tableview-links li>a{
-	color: #000;
+	color: #f60;
 	font-size: 16px;
 	display: inline-block;
 	box-sizing: border-box;
@@ -342,7 +343,7 @@ ol.grouped-tableview-links li>a{
 }
 ul.grouped-tableview-links li>a:hover,
 ol.grouped-tableview-links li>a:hover{
-	background-color: #F6F6EF;
+	background-color: #16164F;
 }
 
 .view .post-content{
@@ -387,7 +388,7 @@ ol.grouped-tableview-links li>a:hover{
 	line-height: 1.2em;
 }
 .view .post-content header h1 a{
-	color: #000;
+	color: #f60;
 	text-decoration: none;
 }
 .view .post-content header + .grouped-tableview{
@@ -407,7 +408,7 @@ ol.grouped-tableview-links li>a:hover{
 }
 .view .post-content .poll li .poll-details b{
 	display: table-cell;
-	color: #333;
+	color: #ccc;
 }
 .view .post-content .poll li .poll-details .points{
 	display: table-cell;
@@ -417,14 +418,14 @@ ol.grouped-tableview-links li>a:hover{
 	vertical-align: bottom;
 }
 .view .post-content .poll li .poll-bar{
-	background-color: #fafafa;
+	background-color: #1a1a4a;
 	width: 100%;
 	height: 3px;
 	overflow: hidden;
 	border-radius: 2px;
 }
 .view .post-content .poll li .poll-bar span{
-	background-color: #007aff;
+	background-color: #ffa700;
 	display: block;
 	width: 0;
 	height: 3px;
@@ -434,13 +435,13 @@ ol.grouped-tableview-links li>a:hover{
 	margin: 0 0 8px;
 	overflow: auto;
 	padding: .65em 0;
-	background-color: #F6F6EF;
+	background-color: #16164F;
 	border-radius: 2px;
 }
 
 .view section.comments{
 	font-size: 13px;
-	background-color: #fff;
+	background-color: #002;
 	border-top: 1px solid #E0E0E0;
 	border-bottom: 1px solid #E0E0E0;
 	margin-bottom: 20px;
@@ -464,7 +465,7 @@ ol.grouped-tableview-links li>a:hover{
 	background: transparent url(../images/comment-arrow.png) no-repeat 0 4px;
 	background-image: url(../images/web/comment-arrow.svg), none;
 	background-size: 10px 9px;
-	color: #333;
+	color: #384;
 }
 .view section.comments p{
 	margin: 8px 0;
@@ -489,7 +490,7 @@ ol.grouped-tableview-links li>a:hover{
 	display: inline-block;
 	font-size: 70%;
 	color: #fff;
-	background-color: #bf223f;
+	background-color: #003;
 	padding: 3px 4px;
 	line-height: 1;
 	margin-left: 5px;
@@ -523,16 +524,16 @@ ol.grouped-tableview-links li>a:hover{
 	font-size: 12px;
 	color: #666;
 	margin: 2px 0 6px;
-	background-color: #f0f0ea;
+	background-color: #001;
 	border: 0;
 	-webkit-user-select: none;
 	border-radius: 2px;
 }
 .view section.comments button.comments-toggle:hover{
-	background-color: #e0e0da;
+	background-color: #0e0e4a;
 }
 .view section.comments button.comments-toggle:active{
-	background-color: #c8c8c8;
+	background-color: #181818;
 }
 .view section.comments li.more-link-container{
 	padding: 0;
@@ -595,10 +596,10 @@ ol.grouped-tableview-links li>a:hover{
 
 @media only screen and (min-width: 788px){
 	body{
-		background-color: #fafafa;
+		background-color: #1a1a1a;
 	}
 	.view{
-		background-color: #fff;
+		background-color: #111;
 		max-width: 700px;
 		box-shadow: 0 0 1px #aaa;
 	}
